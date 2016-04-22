@@ -6,3 +6,10 @@
 	name = Francesco de Guytenaere
 [push]
 	default = simple
+[alias]
+    l = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lg = log --pretty=format:'%h %s [%an]' --graph
+    unstage = reset HEAD -- #filename arg
+    rao = remote add origin
+    rst = reset --soft HEAD~1
+
